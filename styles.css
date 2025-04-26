@@ -59,3 +59,9 @@ body {
 .project-list li {
   margin-bottom: 1rem;
 }
+
+.footer-info {
+  list-style-type: none;
+  margin-top: 1rem;
+  text-align: center;
+}
