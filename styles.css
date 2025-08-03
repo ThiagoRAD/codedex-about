@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: rgb(20,20,20);
   color: rgb(240, 240, 240);
 }
@@ -25,4 +26,36 @@ body {
 .navbar a:hover {
   text-decoration: underline;
   background-color: rgb(50,50,50);
+}
+
+.card {
+  background-color: rgb(40,40,40);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+.card h1, .card h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.about-list {
+  list-style-type: none;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-list {
+  list-style-type: none;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-list li {
+  margin-bottom: 1rem;
 }
